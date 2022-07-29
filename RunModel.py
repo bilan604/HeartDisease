@@ -74,35 +74,28 @@ def runFittedModel(model, __X, __Y, cuttoffPercentile=90):
     print(f"Specificity: {spec}")
     return model
 
-random.seed(1)
 
-colNames = df.columns
+random.seed(1)
 
 dfX = df.copy().drop(columns=["HeartDiseaseorAttack"])
 dfY = df["HeartDiseaseorAttack"]
 
-X = array(dfX)
-Y = array(dfY).reshape(len(dfY), 1)
+X, Y = array(dfX), array(dfY).reshape(len(dfY), 1) 
 
 # Optional Global train-test-split
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.30, random_state=1)
 
-
 encoder = OneHotEncoder()
 X_enc = encoder.fit(X).transform(X).toarray()
 
-
-# Running a model
+# Running a model:
 """
 GBR_NE460_MD3 = GradientBoostingRegressor(n_estimators=450, max_depth=3, random_state=1)
 GBR_NE460_MD3 = runModel(GBR_NE460_MD3, X_enc, Y)
 """
 
+# Some other examples:
+# LinearRegression, Lasso, Ridge, LogisticRegression, MLPRegressor
+# AdaBoostRegressor, RandomForestClassifier, RandomForestRegressor, GradientBoostingClassifier
 
-
-
-
-
-
-
-
+# Optimal Model Found: GradientBoostingRegressor (GBR_NE460_MD3)
