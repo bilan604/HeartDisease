@@ -4,8 +4,5 @@ A paper covering the dataset, the Kaggle notebook, American heart disease in the
 
 Link above to paper (contributed 3.1, 4, 5 + Presentation)
 
-UNGRADED Presentation: Presented findings to class in April about a month before it was due, had already found the optimized model in the paper. If the class had really good models then this might be a factor.
-
-Yes. I literally presented that in the main Lecture Hall of Kleiber for STA160, the last stats class at UC Davis. <b><ins> A+ in the class btw. </ins></b>
-
+UNGRADED Presentation: Presented findings to class in in the main Lecture Hall of Kleiber for STA160 during April (about a month before it was due), had already found the optimized model in the paper. <b><ins> A+ in the class :D </ins></b>
 
