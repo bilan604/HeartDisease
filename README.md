@@ -4,5 +4,5 @@ A paper covering the dataset, the Kaggle notebook, American heart disease in the
 
 Link above to paper (contributed 3.1, 4, 5 + Presentation)
 
-UNGRADED Presentation: Presented findings to class in in the main Lecture Hall of Kleiber for STA160 during April (about a month before it was due), had already found the optimized model in the paper. <b><ins> A+ in the class (Heart-Disease + MLB-Dominance-Heirarchy) :D </ins></b>
+UNGRADED Presentation: Presented findings to class in in the main Lecture Hall of Kleiber for STA160 during April (about a month before it was due), had already found the optimized model in the paper. <b><ins> A+ in the class (Heart-Disease + MLB-Dominance-Heirarchy) </ins></b>
 
